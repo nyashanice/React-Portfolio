@@ -1,14 +1,17 @@
 // import logo from './logo.svg';
 // import './App.css';
 
-import React from 'react';
+import React from "react";
 
-import Header from './components/Header';
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
-   <Header />
+    <div>
+      <Header />
+      <Footer />
+    </div>
   );
 }
 
-// export default App;
