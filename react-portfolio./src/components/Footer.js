@@ -1,11 +1,10 @@
 import React from "react";
-import 'bulma/css/bulma.min.css'
+import "bootstrap/dist/css/bootstrap.css";
 
-
-export default function App() {
+export default function Footer() {
   return (
-    <footer class="footer">
-      <div class="content has-text-centered">
+    <footer className="footer">
+      <div className="content has-text-centered">
         <a href="https://www.linkedin.com/in/nyatyus/">
           <img src="../../public/linkedin.png" alt="LinkedIn logo"></img>
         </a>

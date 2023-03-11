@@ -1,50 +1,65 @@
 import React from "react";
-import 'bulma/css/bulma.min.css'
+import "bootstrap/dist/css/bootstrap.css";
 
-export default function App() {
+export default function Navigation({currentPage, handlePageChange}) {
   return (
-    // <nav>
-    //   <ul>
-    //     <li><a href="#aboutMe">About Me</a></li>
-    //     <li><a href="#portfolio">Portfolio</a></li>
-    //     <li><a href="#contact">Contact</a></li>
-    //     <li><a href="#resume">Resume</a></li>
-    //   </ul>
-    // </nav>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a href="/" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
+    <nav className="navbar" role="navigation" aria-label="main navigation">
+      <div className="navbar-brand">
+        <a
+          href="/"
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
 
-  <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start">
-      <a class="navbar-item" href="#aboutMe">
-        About Me
-      </a>
+      <div id="navbar" className="navbar-menu">
+        <div className="navbar-start">
+          <h1 className="navbar-item">Nya Tyus</h1>
+          <a
+            className="navbar-item {currentPage === 'About Me' ? 'active'}"
+            href="#aboutMe"
+            onClick={() => handlePageChange("About Me")}
+          >
+            About Me
+          </a>
 
-      <a class="navbar-item" href="#portfolio">
-        Portfolio
-      </a>
+          <a
+            className="navbar-item {currentPage === 'Portfolio' ? 'active'"
+            href="#portfolio"
+            onClick={() => handlePageChange("Portfolio")}
+          >
+            Portfolio
+          </a>
 
-      <a class="navbar-item" href="#contact">
-        Conatct
-      </a>
+          <a
+            className="navbar-item {currentPage === 'Contact' ? 'active'"
+            href="#contact"
+            onClick={() => handlePageChange("Contact")}
+          >
+            Conatct
+          </a>
 
-      <a class="navbar-item" href="#resume">
-        Resume
-      </a>
-    </div>
+          <a
+            className="navbar-item {currentPage === 'Resume' ? 'active'"
+            href="#resume"
+          >
+            Resume
+          </a>
+        </div>
 
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
+        <div className="navbar-end">
+          <div className="navbar-item">
+            <div className="buttons"></div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</nav> );
+    </nav>
+  );
 }
