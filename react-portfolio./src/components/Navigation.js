@@ -1,64 +1,64 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 
-export default function Navigation({currentPage, handlePageChange}) {
+const styles = {
+  nav: {
+    background: '#ffb3c6',
+  },
+};
+
+export default function Navigation({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar" role="navigation" aria-label="main navigation">
-      <div className="navbar-brand">
-        <a
-          href="/"
-          role="button"
-          class="navbar-burger"
-          aria-label="menu"
-          aria-expanded="false"
-          data-target="navbarBasicExample"
-        >
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
+    <nav
+      className="navbar navbar-expand-lg navbar-light "
+      style={styles.nav}
+    >
+      <h1>Nya Tyus</h1>
 
-      <div id="navbar" className="navbar-menu">
-        <div className="navbar-start">
-          <h1 className="navbar-item">Nya Tyus</h1>
-          <a
-            className="navbar-item {currentPage === 'About Me' ? 'active'}"
-            href="#aboutMe"
-            onClick={() => handlePageChange("About Me")}
-          >
-            About Me
-          </a>
-
-          <a
-            className="navbar-item {currentPage === 'Portfolio' ? 'active'"
-            href="#portfolio"
-            onClick={() => handlePageChange("Portfolio")}
-          >
-            Portfolio
-          </a>
-
-          <a
-            className="navbar-item {currentPage === 'Contact' ? 'active'"
-            href="#contact"
-            onClick={() => handlePageChange("Contact")}
-          >
-            Conatct
-          </a>
-
-          <a
-            className="navbar-item {currentPage === 'Resume' ? 'active'"
-            href="#resume"
-          >
-            Resume
-          </a>
-        </div>
-
-        <div className="navbar-end">
-          <div className="navbar-item">
-            <div className="buttons"></div>
-          </div>
-        </div>
+      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul className="navbar-nav mr-auto" >
+          <li className="nav-item active">
+            <a
+              href="#aboutMe"
+              onClick={() => handlePageChange("AboutMe")}
+              className={
+                currentPage === "AboutMe" ? "nav-link active" : "nav-link"
+              }
+            >
+              About Me
+            </a>
+          </li>
+          <li className="nav-item">
+            <a
+              href="#portfolio"
+              onClick={() => handlePageChange("Portfolio")}
+              className={
+                currentPage === "Portfolio" ? "nav-link active" : "nav-link"
+              }
+            >
+              Portfolio
+            </a>
+          </li>
+          <li className="nav-item">
+            <a
+              href="#contact"
+              onClick={() => handlePageChange("Contact")}
+              className={
+                currentPage === "Contact" ? "nav-link active" : "nav-link"
+              }
+            >
+              Contact
+            </a>
+          </li>
+          <li className="nav-item">
+            <a
+              className="nav-link"
+              href="https://docs.google.com/document/d/1CxE84TLEQTlU-VEgh5_n1IS3XcxpDtly30RFOQFtGHo/edit"
+            >
+              Resume
+            </a>
+          </li>
+        </ul>
       </div>
     </nav>
   );
