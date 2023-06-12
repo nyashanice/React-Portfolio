@@ -1,9 +1,5 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.css";
 
-const styles = {
-  image: { width: "50%", height: "70%" },
-};
 
 export default function AboutMe() {
   return (
@@ -19,7 +15,7 @@ export default function AboutMe() {
           <img
             src="../../IMG_5699.JPG"
             alt="Author with graduation cap"
-            style={styles.image}
+          
           ></img>
         </div>
       </div>
