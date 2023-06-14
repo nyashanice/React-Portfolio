@@ -4,14 +4,21 @@
 }
 
 .contact-card-bg {
-    background-color: #E3E1E1 !important;
+    background-color: #F3F2F2 !important;
 }
 
 .contact-div {
     background-color: white ;
-    border-radius:3px;
+    border-radius:6px;
+    padding-left: 15px;
 }
 
 .contact-text {
-    color: pink;
+    color: pink !important;
+    text-decoration: none;
+    border-color: white !important;
+}
+
+.contact-list-group {
+    border-bottom: 2px solid #F3F2F2;
 }
