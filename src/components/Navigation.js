@@ -1,16 +1,26 @@
 import React from "react";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import "../styles/Nav.css";
 
-export default function Navigation() {
+function BasicExample() {
   return (
-  
-          <li className="nav-item">
-            <a
-              className="nav-link"
-              href="https://docs.google.com/document/d/1CxE84TLEQTlU-VEgh5_n1IS3XcxpDtly30RFOQFtGHo/edit"
-            >
-              Resume
-            </a>
-          </li>
-      
-  )
+    <Navbar expand="lg" className="nav-bg">
+      <Container>
+        <Navbar.Brand href="#home">Nya Tyus</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link to="/">Home</Nav.Link>
+            <Nav.Link to="/about">About</Nav.Link>
+            <Nav.Link to="/portfolio">Portfolio</Nav.Link>
+            <Nav.Link to="/about">Resume</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
 }
+
+export default BasicExample;
