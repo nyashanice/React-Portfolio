@@ -8,9 +8,9 @@ import {
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import AboutMe from "./components/pages/AboutMe";
-import Contact from "./components/pages/Contact";
-import Portfolio from "./components/pages/Portfolio";
+import AboutMe from "./pages/AboutMe";
+import Contact from "./pages/Contact";
+import Portfolio from "./pages/Portfolio";
 
 export default function App() {
   return (

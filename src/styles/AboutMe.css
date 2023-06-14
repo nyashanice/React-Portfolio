@@ -1,0 +1,17 @@
+.headshotImg {
+    width: 8rem;
+    height: 8rem;
+}
+
+.contact-card-bg {
+    background-color: #E3E1E1 !important;
+}
+
+.contact-div {
+    background-color: white ;
+    border-radius:3px;
+}
+
+.contact-text {
+    color: pink;
+}

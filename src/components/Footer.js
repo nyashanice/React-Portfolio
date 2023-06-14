@@ -11,10 +11,10 @@ export default function Footer() {
     <footer className="footer">
       <div className="content has-text-centered">
         <a href="https://www.linkedin.com/in/nyatyus/">
-          <img src="../../linkedin.png" alt="LinkedIn logo" style={styles.logoStyles}></img>
+          <img src="../images/linkedin.png" alt="LinkedIn logo" style={styles.logoStyles}></img>
         </a>
         <a href="https://github.com/nyashanice">
-          <img src="../../github.png" alt="GitHub logo" style={styles.logoStyles}></img>
+          <img src="../../images/github.png" alt="GitHub logo" style={styles.logoStyles}></img>
         </a>
       </div>
     </footer>
