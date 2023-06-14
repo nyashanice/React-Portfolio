@@ -17,8 +17,17 @@
     color: #FF82CE !important;
     text-decoration: none;
     border-color: white !important;
+    font-family: "SF-Pro",sans-serif;
 }
 
 .contact-list-group {
     border-bottom: 2px solid #F3F2F2;
+}
+
+.about-header {
+    font-family: 'Righteous', cursive;
+}
+
+.about-main-txt {
+    font-family: 'Arvo', serif;
 }

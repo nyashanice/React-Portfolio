@@ -8,12 +8,12 @@ import Tooltip from "react-bootstrap/Tooltip";
 import "../styles/AboutMe.css";
 
 export default function AboutMe() {
-  
   const [show, setShow] = useState(false);
   const target = useRef(null);
 
   return (
     <div>
+      <h1 className="text-center about-header">About Me</h1>
       <Card className="contact-card-bg m-3">
         <Card.Body className="p-2">
           <Link to="/" className="contact-text">
@@ -92,18 +92,23 @@ export default function AboutMe() {
           </div>
         </Card.Body>
       </Card>
-      <div className="">
+      <div className="about-main-txt m-3">
         <p>
           My name is Nya Tyus and I am a graduate of the Georgia Tech Full Stack
           Coding Bootcamp as of March 2023. As a student, I learned various
           tools and programming languages. To name a few, I have experience with
           MERN stack (MongoDB, Express.js, React, Node.js), MySQL, object
-          oriented programming, and more! During bootcamp, I worked on group
-          projects where we learned to collarboate, communicate, brainstorm, and
-          use Git. I also worked on numerous solo projects and assignments and I
-          continue to do so currently. In my free time, I like to travel, read,
-          record and edit YouTube and TikTok videos, and cook. I also love the
-          color pink as you can see!
+          oriented programming, and more! 
+        </p>
+        <p>
+          During bootcamp, I worked on group projects where we learned to
+          collarboate, communicate, brainstorm, and use Git. I also worked on
+          numerous solo projects and assignments and I continue to do so
+          currently.
+        </p>
+        <p>
+          In my free time, I like to travel, read, record and edit YouTube and
+          TikTok videos, and cook. I also love the color pink as you can see!
         </p>
       </div>
     </div>
