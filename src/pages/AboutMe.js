@@ -18,7 +18,7 @@ export default function AboutMe() {
       <Header />
       <div>
         <h1 className="text-center about-header m-2">About Me</h1>
-        <Card className="contact-card-bg m-3">
+        <Card className="contact-card-bg m-3 contact-card mx-auto">
           <Card.Body className="p-2">
             <Link to="/" className="contact-text">
               <Card.Subtitle className="mb-2">&#60; Home</Card.Subtitle>

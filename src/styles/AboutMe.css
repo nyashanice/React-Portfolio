@@ -31,3 +31,9 @@
 .about-main-txt {
     font-family: 'Arvo', serif;
 }
+
+@media screen and (min-width: 768px) {
+    .contact-card {
+        width: 50%;
+    }
+}
