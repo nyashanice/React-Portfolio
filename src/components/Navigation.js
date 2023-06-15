@@ -26,7 +26,15 @@ function Navigation() {
             >
               Portfolio
             </Nav.Link>
-            <Nav.Link to="/about">Resume</Nav.Link>
+            <Nav.Link
+              as={Link}
+              style={{ textDecoration: "none" }}
+              to="https://docs.google.com/document/d/1CxE84TLEQTlU-VEgh5_n1IS3XcxpDtly30RFOQFtGHo/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

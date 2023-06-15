@@ -17,7 +17,12 @@ export default function Home() {
         <Link to="/portfolio" className="home-list-item">
           <li className="p-3">Portfolio</li>
         </Link>
-        <Link to="/about" className="home-list-item">
+        <Link
+          to="https://docs.google.com/document/d/1CxE84TLEQTlU-VEgh5_n1IS3XcxpDtly30RFOQFtGHo/edit?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="home-list-item"
+        >
           <li className="p-3">Resume</li>
         </Link>
       </ul>

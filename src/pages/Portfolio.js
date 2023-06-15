@@ -19,7 +19,9 @@ export default function Portfolio() {
             previous season statistics. You login, choose a team, and predict
             the game outcome versus any other team!{" "}
           </p>
-          <p className="m-0 p-0 project-stack">MySQL, Handlebars, Bulma</p>
+          <p className="m-0 p-0 project-stack">
+            MySQL, Handlebars, JavaScript, Express, Node, Bulma
+          </p>
           <p className="m-0 p-0 text-muted project-text contributors">
             Contributors: Nya Tyus, Seve Nerowski, Teresa Rodriguez, Jillian
             Hallmark, Nick Fierke
