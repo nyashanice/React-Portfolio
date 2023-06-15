@@ -37,7 +37,7 @@ export default function Portfolio() {
                 GitHub
               </Link>
               <Link
-                to="https://github.com/nyashanice/SHOT_CLOCK"
+                to="https://nyashanice.github.io/SHOT_CLOCK/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="project-link"
