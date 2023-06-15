@@ -1,172 +1,102 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-
-const styles = {
-  cardStyles: {
-    width: "18rem",
-    backgroundColor: "#fb6f92",
-  },
-  textStyles: {
-    textColor: "#ffb3c6",
-  },
-};
+import { Link } from "react-router-dom";
 
 export default function Portfolio() {
   return (
     <div>
       <Header />
       <div>
-        <h1 style={styles.textStyles}>Portfolio</h1>
+        <h1>Portfolio</h1>
       </div>
       <div>
-        <div className="d-flex flex-row">
-          <div className="card mx-auto" style={styles.cardStyles}>
-            <img
-              className="card-img-top"
-              src="../../cardImages/basketball.jpeg"
-              alt="Basketball going through hoop"
-            ></img>
-            <div className="card-body">
-              <h5 className="card-title">Shot Clock</h5>
-            </div>
-            <div className="card-body">
-              <a
-                href="https://github.com/nyashanice/SHOT_CLOCK"
-                className="card-link"
-              >
-                GitHub
-              </a>
-              <a
-                href="http://shot-clock.herokuapp.com/login"
-                className="card-link"
-              >
-                Deployed Site
-              </a>
-            </div>
-          </div>
-
-          <div className="card mx-auto" style={styles.cardStyles}>
-            <img
-              className="card-img-top"
-              src="../../cardImages/inspiration.png"
-              alt="5 balled up pieces of paper in a row with the yellow one drawn to resemble a lightbulb"
-            ></img>
-            <div className="card-body">
-              <h5 className="card-title">Inspire Calendar</h5>
-            </div>
-            <div className="card-body">
-              <a
-                href="https://github.com/nyashanice/Inspire-Calendar"
-                className="card-link"
-              >
-                GitHub
-              </a>
-              <a
-                href="https://nyashanice.github.io/Inspire-Calendar/"
-                className="card-link"
-              >
-                Deployed Site
-              </a>
-            </div>
+        <div>
+          <h2>Shot Clock</h2>
+          <p>Description...</p>
+          <p>MySQL, Handlebars, Bulma</p>
+          <p>
+            Contributors: Nya Tyus, Seve Nerowski, Teresa Rodriguez, Jillian
+            Hallmark, Nick Fierke
+          </p>
+          <div className="d-flex flex-row">
+            <Link
+              to="https://github.com/nyashanice/SHOT_CLOCK"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </Link>
+            <Link
+              to="https://github.com/nyashanice/SHOT_CLOCK"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Deployed
+            </Link>
           </div>
         </div>
-
-        <div className="d-flex flex-row">
-          <div className="card mx-auto" style={styles.cardStyles}>
-            <img
-              className="card-img-top"
-              src="../../cardImages/planner.jpeg"
-              alt="Calendar with sticky notes on it and multiple hands reaching towards it"
-            ></img>
-            <div className="card-body">
-              <h5 className="card-title">Time Management Planner</h5>
-            </div>
-            <div className="card-body">
-              <a
-                href="https://github.com/nyashanice/Time-Managament-Planner"
-                className="card-link"
-              >
-                GitHub
-              </a>
-              <a
-                href="https://nyashanice.github.io/Time-Managament-Planner/"
-                className="card-link"
-              >
-                Deployed Site
-              </a>
-            </div>
-          </div>
-
-          <div className="card mx-auto" style={styles.cardStyles}>
-            <img
-              className="card-img-top"
-              src="../../cardImages/notes.png"
-              alt="Notepad with purple pen"
-            ></img>
-            <div className="card-body">
-              <h5 className="card-title">Personal Note Taker</h5>
-            </div>
-            <div className="card-body">
-              <a
-                href="https://github.com/nyashanice/Personal-Note-Taker"
-                className="card-link"
-              >
-                GitHub
-              </a>
-              <a
-                href="https://personal-note-taker.herokuapp.com/"
-                className="card-link"
-              >
-                Deployed Site
-              </a>
-            </div>
+        <div>
+          <h2>Voyage Vistas</h2>
+          <p>Description...</p>
+          <p>React, Bootstrap</p>
+          <div className="d-flex flex-row">
+            <Link
+              to="https://github.com/nyashanice/Travel-Agent-Site"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </Link>
+            <Link
+              to="https://nyashanice.github.io/Travel-Agent-Site/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Deployed
+            </Link>
           </div>
         </div>
-
-        <div className="d-flex flex-row">
-          <div className="card mx-auto" style={styles.cardStyles}>
-            <img
-              className="card-img-top"
-              src="../../cardImages/weather.jpeg"
-              alt="Partly  cloudy weather with rain"
-            ></img>
-            <div className="card-body">
-              <h5 className="card-title">Weather Dashboard</h5>
-            </div>
-            <div className="card-body">
-              <a
-                href="https://github.com/nyashanice/Weather-Dashboard"
-                className="card-link"
-              >
-                GitHub
-              </a>
-              <a
-                href="https://nyashanice.github.io/Weather-Dashboard/"
-                className="card-link"
-              >
-                Deployed Site
-              </a>
-            </div>
+        <div>
+          <h2>The Faithful Pixel</h2>
+          <p>Description...</p>
+          <p>React, Bootstrap</p>
+          <div className="d-flex flex-row">
+            <Link
+              to="https://github.com/nyashanice/Freelance-Site"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </Link>
+            <Link
+              to="https://www.thefaithfulpixel.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Deployed
+            </Link>
           </div>
-
-          <div className="card mx-auto" style={styles.cardStyles}>
-            <img
-              className="card-img-top"
-              src="../../cardImages/social_network.png"
-              alt="Social icons floating from user screens"
-            ></img>
-            <div className="card-body">
-              <h5 className="card-title">Social Network API</h5>
-            </div>
-            <div className="card-body">
-              <a
-                href="https://github.com/nyashanice/Social-Network-API"
-                className="card-link"
-              >
-                GitHub
-              </a>
-            </div>
+        </div>
+        <div>
+          <h2>Fast Twitch Frenzy</h2>
+          <p>Description...</p>
+          <p>React, Bootstrap</p>
+          <div className="d-flex flex-row">
+            <Link
+              to="https://github.com/nyashanice/Fast-Twitch-Frenzy"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </Link>
+            <Link
+              to="https://nyashanice.github.io/Fast-Twitch-Frenzy/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Deployed
+            </Link>
           </div>
         </div>
       </div>
