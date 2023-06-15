@@ -9,10 +9,10 @@ function Navigation() {
   return (
     <Navbar expand="lg" className="nav-bg">
       <Container>
-        <Navbar.Brand href="#home">Nya Tyus</Navbar.Brand>
+        <Navbar.Brand className="nav-name-text">Nya Tyus</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="me-auto nav-text">
             <Nav.Link as={Link} style={{ textDecoration: "none" }} to="/">
               Home
             </Nav.Link>
