@@ -28,3 +28,18 @@ font-family: 'Arvo', serif;
     font-family: 'Arvo', serif;
     color: #FF82CE;
 }
+
+@media screen and (min-width: 992px) {
+    .portfolio-contents {
+        display: flex;  
+        flex-direction: column;
+    }
+    .project-card {
+        width: 45%;
+    }
+    .portfolio-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
