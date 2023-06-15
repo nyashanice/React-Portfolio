@@ -10,14 +10,22 @@ export default function Footer() {
         <Link to="mailto:nyastyus@gmail.com">
           <img src="../images/email.png" alt="" className="footer-logo m-2" />
         </Link>
-        <Link to="https://www.linkedin.com/in/nyatyus/">
+        <Link
+          to="https://www.linkedin.com/in/nyatyus/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             src="../images/linkedin.png"
             alt="LinkedIn logo"
             className="footer-logo m-2"
           />
         </Link>
-        <Link to="https://github.com/nyashanice">
+        <Link
+          to="https://github.com/nyashanice"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             src="../../images/github.png"
             alt="GitHub logo"
