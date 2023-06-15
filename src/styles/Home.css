@@ -1,0 +1,39 @@
+.home-bg {
+    background-image: linear-gradient(to right, #FF82CE, white);
+    height: 100vh;
+}
+
+.home-name {
+    font-size: 100px;
+    font-family: 'Righteous', cursive;
+}
+
+.home-subtitle {
+    font-family: 'Arvo', serif;
+    font-size: 10px;
+}
+
+.home-title {
+    font-family: 'Arvo', serif;
+    font-size: 30px;
+}
+
+.home-nav-list {
+    list-style: none;
+    font-family: 'Arvo', serif;
+}
+
+.home-list-item {
+    text-decoration: none;
+    color: black;
+}
+
+.home-list-item:hover {
+    color: grey;
+    font-size: 20px;
+}
+
+.home-icon {
+    width: 40px;
+    height: 40px;
+}
