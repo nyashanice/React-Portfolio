@@ -19,7 +19,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build"
   },
@@ -41,7 +41,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://nyashanice.github.io/React-Portfolio",
+  "homepage": "https://nyashanice.github.io/",
   "devDependencies": {
     "gh-pages": "^5.0.0"
   }
