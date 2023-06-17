@@ -31,7 +31,11 @@ export default function Home() {
         </ul>
         <div className="d-flex flex-row justify-content-center">
           <Link to="mailto:nyastyus@gmail.com">
-            <img src="../images/email.png" alt="" className="home-icon m-2" />
+            <img
+              src="../React-Portfolio/images/email.png"
+              alt=""
+              className="home-icon m-2"
+            />
           </Link>
           <Link
             to="https://www.linkedin.com/in/nyatyus/"
@@ -39,7 +43,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <img
-              src="../images/linkedin.png"
+              src="../React-Portfolio/images/linkedin.png"
               alt=""
               className="home-icon m-2"
             />
@@ -49,7 +53,11 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="../images/github.png" alt="" className="home-icon m-2" />
+            <img
+              src="../React-Portfolio/images/github.png"
+              alt=""
+              className="home-icon m-2"
+            />
           </Link>
         </div>
       </div>

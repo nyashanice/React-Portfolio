@@ -26,7 +26,7 @@ export default function AboutMe() {
               </Link>
               <Image
                 className="mx-auto d-block headshotImg"
-                src="../images/headshot.png"
+                src="../React-Portfolio/images/headshot.png"
                 alt=""
                 roundedCircle
               />
