@@ -8,7 +8,7 @@ import Portfolio from "./pages/Portfolio";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/React-Portfolio">
       <div>
           <Routes>
             <Route path="/" element={<Home />} />
