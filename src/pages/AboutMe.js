@@ -75,7 +75,9 @@ export default function AboutMe() {
               </div>
               <div className="contact-div m-1 mb-2 mt-2">
                 <p className="m-0 p-0">tech stack</p>
-                <p className="m-0 p-0 contact-text">MERN, MySQL, JavaScript</p>
+                <p className="m-0 p-0 contact-text">
+                  MERN, MySQL, JavaScript, Excel
+                </p>
               </div>
               <div className="contact-div m-1 mb-2 mt-2">
                 <p className="m-0 p-0">interests</p>
@@ -110,23 +112,27 @@ export default function AboutMe() {
           </Card>
           <div className="about-main-txt m-3">
             <p>
-              My name is Nya Tyus and I am a graduate of the Georgia Tech Full
-              Stack Coding Bootcamp as of March 2023. As a student, I learned
-              various tools and programming languages. To name a few, I have
-              experience with MERN stack (MongoDB, Express.js, React, Node.js),
-              MySQL, object oriented programming, and more!
+              My name is Nya Tyus and I hold a B.S. in Biology from Clayton
+              State University and I am a graduate of the Georgia Tech Full
+              Stack Coding Bootcamp. As a college student, I learned to use
+              statistical analysis tools in Excel and RStudio which I used in
+              multiple labs and lectures over the years. As a bootcamp student,
+              I learned various tools and programming languages. To name a few,
+              I have experience with MERN stack (MongoDB, Express.js, React,
+              Node.js), MySQL, JavaScript, and more!
             </p>
             <p>
-              During bootcamp, I worked on group projects where we learned to
-              collarboate, communicate, brainstorm, and use Git. I also worked
-              on numerous solo projects and assignments and I continue to do so
-              currently.
+              As a student, I've worked on group projects where I learned to
+              collaborate, communicate, brainstorm, and use Git. I also worked
+              on numerous solo coding projects and assignments and I continue to
+              do so currently.
             </p>
             <p>
               In my free time, I like to travel, read, record and edit YouTube
               and TikTok videos, and cook. I also love the color pink as you can
               see!
             </p>
+            <p>Currently learning: Python</p>
           </div>
         </div>
       </div>
