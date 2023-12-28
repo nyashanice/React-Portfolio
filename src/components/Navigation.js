@@ -29,7 +29,7 @@ function Navigation() {
             <Nav.Link
               as={Link}
               style={{ textDecoration: "none" }}
-              to="https://docs.google.com/document/d/1CxE84TLEQTlU-VEgh5_n1IS3XcxpDtly30RFOQFtGHo/edit?usp=sharing"
+              to="https://docs.google.com/document/d/1mxySfbGPRAebNYT9sg1TugIC9A6-xjTFVPPQhXeQBwY/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
