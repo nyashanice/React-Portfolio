@@ -42,30 +42,32 @@ export default function Portfolio() {
             </div>
           </div>
           <div className="m-2 p-1 project-card">
-            <h2 className="m-0 p-0 project-title">Fast Twitch Frenzy</h2>
+            <h2 className="m-0 p-0 project-title">Faithful Fitness</h2>
             <p className="m-1 p-0 project-text">
-              Fast Twitch Frenzy is a fitness event for athletes of all ages.
-              The website gives you information about the event, the event
-              staff, and ticket information.
+              Faithful Fitness is a workout generator. It allows the user to
+              select a muscle group and equipment preferences and gives a
+              5-exercise workout based off of the choices.
             </p>
-            <p className="m-0 p-0 project-stack">React, Bootstrap</p>
+            <p className="m-0 p-0 project-stack">
+              JavaScript, React, Bootstrap
+            </p>
             <div className="d-flex flex-row justify-content-around m-0 p-0">
               <Link
-                to="https://github.com/nyashanice/Fast-Twitch-Frenzy"
+                to="https://github.com/nyashanice/Faithful-Fitness"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="project-link"
               >
                 GitHub
               </Link>
-              <Link
+              {/* <Link
                 to="https://nyashanice.github.io/Fast-Twitch-Frenzy/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="project-link"
               >
                 Deployed
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
@@ -120,14 +122,14 @@ export default function Portfolio() {
               >
                 GitHub
               </Link>
-              <Link
+              {/* <Link
                 to="https://nyashanice.github.io/SHOT_CLOCK/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="project-link"
               >
                 Deployed
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

@@ -132,7 +132,7 @@ export default function AboutMe() {
               and TikTok videos, and cook. I also love the color pink as you can
               see!
             </p>
-            <p>Currently learning: Python</p>
+            <p> ✨ Currently learning: Python</p>
           </div>
         </div>
       </div>
