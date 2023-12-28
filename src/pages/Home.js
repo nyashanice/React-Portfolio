@@ -10,7 +10,7 @@ export default function Home() {
         {/* <div className="home-subtitle p-2 pt-0">
         AKA Tinker Bell of the tech world
       </div> */}
-        <div className="home-title p-2">[Web Developer]</div>
+        <div className="home-title p-2">[Data Analyst]</div>
       </div>
       <div className="home-right">
         <ul className="home-nav-list text-center p-0 mt-3">
